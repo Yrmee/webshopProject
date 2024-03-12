@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> ecommerce website design - sunglasses webshop </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- box-icons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- remix-icons link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- aos-animate link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    
+    <!--- header --->
+    <header>
+        <a href="#" class="logo">Sunglass.co</a>
+
+        <ul class="navlist">
+            <li><a href="#"> Shop </a></li>
+            <li><a href="#"> Sale </a></li>
+            <li><a href="#"> New Arrivals </a></li>
+            <li><a href="#"> Brands </a></li>
+            <li><a href="#"> Contact </a></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="#"><i class="ri-search-line"></i></a>
+            <a href="#"><i class="ri-shopping-cart-line"></i></a>
+            <a href="#"><i class="ri-user-line"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!--- home --->
+    <section class="home">
+        <div class="home-text" data-aos="fade-up">
+            <h6> New Arrivals </h6>
+            <h1> New Arrivals <br> ready to rock </h1>
+            <p> Unveil the latest eyewear, where bold meets iconic. <br> 
+                Be bold, be different – your next iconic look awaits!
+            </p>
+            <a href="#" class="btn"> 
+                Shop now 
+                <i class="ri-arrow-right-line"></i>
+            </a>
+        </div>
+    </section>
+
+    <!--- brands --->
+    <div class="brands">
+        <div class="main-brands" data-aos="zoom-in">
+            <div class="brand-c">
+                <img src="img/brands/ray-ban.png" alt="">
+            </div>
+            <div class="brand-c">
+                <img src="img/brands/versace.png" alt="">
+            </div>
+            <div class="brand-c">
+                <img src="img/brands/burberry.png" alt="">
+            </div>
+            <div class="brand-c">
+                <img src="img/brands/gucci.png" alt="">
+            </div>            
+            <div class="brand-c">
+                <img src="img/brands/michaelkors.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!--- all products --->
+    <section class="n-product">
+        <div class="center-text" data-aos="fade-down">
+            <h2> SUNGLASS.COLLECTION </h2>
+        </div>
+
+        <div class="n-filter-tabs" data-aos="fade-up">
+            <a class="filter-btn active" data-filter="all"> All </a>
+            <a class="filter-btn" data-filter="rayban"> Ray ban </a>
+            <a class="filter-btn" data-filter="gucci"> Gucci </a>
+            <a class="filter-btn" data-filter="burberry"> Burberry </a>
+            <a class="filter-btn" data-filter="versace"> Versace </a>
+            <a class="filter-btn" data-filter="mk"> Michael Kors </a>
+
+            <select id="sort-select" class="sort-select">
+                <option value="" selected disabled>Select</option> <!-- Default option -->
+                <option value="high-to-low">Price High to Low</option>
+                <option value="low-to-high">Price Low to High</option>
+                <option value="alphabetical">Name A to Z</option>
+                <option value="reverse-alphabetical">Name Z to A</option>
+                <option value="sort-reset"> Show All Products </option>
+            </select>
+
+        </div>
+
+        <div class="n-content" data-aos="zoom-in">
+            <div class="row gucci">
+                <div class="row-img">
+                    <img src="img/products/gucci_havana.png" alt="">
+                </div>
+                <h3> GUCCI - Squared Havana </h3>
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#" class="stars-rate"> 4.5/5</a>
+
+                    <!-- Option I'm thinking about of coding it this way.
+                    <ul class="stars">
+                        <li><i class="ri-star-fill"></i></li>
+                        <li><i class="ri-star-fill"></i></li>
+                        <li><i class="ri-star-fill"></i></li>
+                        <li><i class="ri-star-fill"></i></li>
+                        <li><i class="ri-star-fill"></i></li>
+                        <li class="stars-rate"> 4.5/5 </li>
+                        <li><a href="#" class="stars-rate"> Reviews </a></li>
+                    </ul>
+                    -->
+
+                </div>
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+                    <div class="row-right">
+                        <h6> € 215,00 </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row burberry">
+                <div class="row-img">
+                    <img src="img/products/burberry_cateye.png" alt="">
+                </div>
+                <h3> BURBERRY - Cateye Haymarket Check </h3>
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#" class="stars-rate"> 4.5/5</a>
+                </div>
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+    
+                    <div class="row-right">
+                        <h6> € 190,00 </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row versace">
+                <div class="row-img">
+                    <img src="img/products/versace_butterflyOffwhite.png" alt="">
+                </div>
+                <h3> VERSACE - Butterfly Off-white </h3>
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#" class="stars-rate"> 4.5/5</a>
+                </div>
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+    
+                    <div class="row-right">
+                        <h6> € 300,00 </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row rayban">
+                <div class="row-img">
+                    <img src="img/products/rayban_frank.png" alt="">
+                </div>
+                <h3> RAY BAN - Frank Unisex Rose-gold </h3>
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#" class="stars-rate"> 4.5/5</a>
+                </div>
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+    
+                    <div class="row-right">
+                        <h6> € 144,95 </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mk">
+                <div class="row-img">
+                    <img src="img/products/mk_harbourIsland.png" alt="">
+                </div>
+                <h3> MICHAEL KORS - Harbour Island Deep Red </h3>
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#" class="stars-rate"> 4.5/5</a>
+                </div>
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+    
+                    <div class="row-right">
+                        <h6> € 114,99 </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mk">
+                <div class="row-img">
+                    <img src="img/products/mk_arches.png" alt="">
+                </div>
+                <h3> MICHAEL KORS - Arches Light Gold </h3>
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#" class="stars-rate"> 4.5/5</a>
+                </div>
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+    
+                    <div class="row-right">
+                        <h6> € 119,95 </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row rayban">
+                <div class="row-img">
+                    <img src="img/products/rayban_clubmaster.png" alt="">
+                </div>
+                <h3> RAY BAN - Clubmaster Unisex Black on Arista </h3>
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#" class="stars-rate"> 4.5/5</a>
+                </div>
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+    
+                    <div class="row-right">
+                        <h6> € 129,95 </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row versace">
+                <div class="row-img">
+                    <img src="img/products/versace_pink.png" alt="">
+                </div>
+                <h3> VERSACE - Transparant Pink </h3>
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#" class="stars-rate"> 4.5/5</a>
+                </div>
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+    
+                    <div class="row-right">
+                        <h6> € 255,00 </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row burberry">
+                <div class="row-img">
+                    <img src="img/products/burberry_margot.png" alt="">
+                </div>
+                <h3> BURBERRY - Margot Black </h3>
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#" class="stars-rate"> 4.5/5</a>
+                </div>
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+    
+                    <div class="row-right">
+                        <h6> € 250,00 </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gucci">
+                <div class="row-img">
+                    <img src="img/products/gucci_pilotTear.png" alt="">
+                </div>
+                <h3> GUCCI - Pilot Tear Gold </h3>
+                <div class="stars">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#" class="stars-rate"> 4.5/5</a>
+                </div>
+                <div class="row-in">
+                    <div class="row-left">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+    
+                    <div class="row-right">
+                        <h6> € 535,00 </h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="n-btn">
+            <a href="#" class="btn-all"> Load more </a>
+        </div>
+    </section>
+
+    <!--- feature --->
+    <section class="feature">
+        <div class="feature-content" data-aos="fade-down">
+            <div class="box">
+                <div class="f-icon">
+                    <i class="ri-bank-card-fill"></i>
+                </div>
+                <div class="f-text">
+                    <h3> Payment Methods </h3>
+                    <p> Apple Pay · Mastercard · PayPal · iDEAL · Riverty · SUNGLASS.CO Gift cards
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="f-icon">
+                    <i class="ri-truck-fill"></i>
+                </div>
+                <div class="f-text">
+                    <h3> Free Shipping </h3>
+                    <p> Always free shipping for members and orders above € 150,00.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="f-icon">
+                    <i class="ri-arrow-go-back-fill"></i>
+                </div>
+                <div class="f-text">
+                    <h3> Free Returns </h3>
+                    <p>  No return costs for members, see our return policy for details.
+                    </p>
+                </div>
+            </div>
+            <!--- customer care - outcommented -->
+            <!-- I leave this here for future use 
+            <div class="box">
+                <div class="f-icon">
+                    <i class="ri-customer-service-fill"></i>
+                </div>
+                <div class="f-text">
+                    <h3> Customer Care </h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Atque exercitationem necessitatibus consectetur iste error, rerum libero.
+                    </p>
+                </div>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <!--- best selling -->
+    <section class="selling">
+        <div class="center-text" data-aos="fade-up">
+            <h2> SUNGLASS.BESTSELLERS </h2>
+        </div>
+
+        <div class="selling-content" data-aos="zoom-in-up">
+            <div class="col">
+                <div class="col-img">
+                    <img src="img/products/rayban_frank.png" alt="">
+                </div>
+                <div class="col-icon">
+                    <a href="#"> <i class="ri-heart-line"></i> </a>
+                    <a href="#"> <i class="ri-eye-line"></i> </a>
+                    <a href="#"> <i class="ri-shopping-cart-line"></i> </a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="col-img">
+                    <img src="img/products/gucci_havana.png" alt="">
+                </div>
+                <div class="col-icon">
+                    <a href="#"> <i class="ri-heart-line"></i> </a>
+                    <a href="#"> <i class="ri-eye-line"></i> </a>
+                    <a href="#"> <i class="ri-shopping-cart-line"></i> </a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="col-img">
+                    <img src="img/products/burberry_margot.png" alt="">
+                </div>
+                <div class="col-icon">
+                    <a href="#"> <i class="ri-heart-line"></i> </a>
+                    <a href="#"> <i class="ri-eye-line"></i> </a>
+                    <a href="#"> <i class="ri-shopping-cart-line"></i> </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--- newsletter section -->
+    <section class="newsletter">
+        <div class="newsletter-content" data-aos="fade-up">
+            <div class="newsletter-text">
+                <h2> Get On the List! </h2>
+                <p> Sign Up to get Exclusive Discounts and Promotions. </p>
+            </div>
+
+            <form action="">
+                <input type="email" placeholder="Your email..." required>
+                <input type="submit" value="Subscribe" class="btn-subscribe">
+            </form>
+        </div>
+    </section>
+
+    <!--- footer section --->
+    <section class="footer box-shadow-top">
+        <div class="footer-box">
+            <h3> About </h3>
+            <a href="#"> A word from Us </a>
+            <a href="#"> Blog </a>
+            <a href="#"> Careers </a>
+            <a href="#"> Press </a>
+            <a href="#"> Contact Us </a>
+        </div>
+
+        <div class="footer-box">
+            <h3> Support </h3>
+            <a href="#"> Shipping &amp; Delivery </a>
+            <a href="#"> Returns </a>
+            <a href="#"> Payment Methods </a>
+            <a href="#"> FAQ's </a>
+            <a href="#"> Helpdesk </a>
+        </div>
+
+        <div class="footer-box">
+            <h3> Quick Links </h3>
+            <a href="#"> My Account </a>
+            <a href="#"> New Arrivals </a>
+            <a href="#"> Sale </a>
+            <a href="#"> Gift Cards </a>
+        </div>
+
+        <div class="footer-box">
+            <h3> Join the Socials </h3>
+            <div class="social">
+                <a href="#"> <i class="ri-facebook-fill"></i> </a>
+                <a href="#"> <i class="ri-instagram-fill"></i> </a>
+                <a href="#"> <i class="ri-twitter-fill"></i> </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!--- copyright --->
+    <div class="copyright">
+        <div class="end-text">
+            <p> CopyRight 2024 By Yrmee </p>
+        </div>
+        <div class="end-text">
+            <p> Terms& Conditions | Privacy Policy </p>
+        </div>
+    </div>
+
+    <!--- custom js link --->
+    <script src="js/script.js"></script>
+
+    <!--- aos script link --->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1450,
+        });
+    </script>
+
+</body>
+
+</html>
