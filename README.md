@@ -1,2 +1,4 @@
-# webshopProject
- Personal Webshop Project 
+# Personal Modern Webshop Project
+
+ Industry: Fashion  
+ Subject: Sunglasses
