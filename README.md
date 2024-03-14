@@ -8,7 +8,7 @@ ___________________
 
 > _Add introduction text, the purpose of this project etc. here_  
 
-## SUNGLASSES.CO
+## SUNGLASS.CO
 
 > _Add text about the project here_
 
