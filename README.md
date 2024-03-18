@@ -1,7 +1,7 @@
 # Personal Modern Webshop Project
 
 ```
-Note: Project is still in Progress. 
+Note: Project is still a Work in Progress. 
 ```
 
 ___________________
